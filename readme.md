@@ -1,45 +1,42 @@
-# AngularJS TodoMVC Example
+#Cloud Compass Inc. Digital Literacy Course - DevOps for Business Managers - Lab 1
 
-> HTML is great for declaring static documents, but it falters when we try to use it for declaring dynamic views in web-applications. AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.
+##Introduction
 
-> _[AngularJS - angularjs.org](http://angularjs.org)_
+In this exercise, you will be going through a set of steps similar to those that a developer would follow in implementing a new feature, or a bug fix, including deploying an updated build into a live environment.  The purpose of this exercise is for you to gain an understanding of the workflow, as well as the supporting tools that work together to provide the automation.
+  
+This exercise makes use of a basic "ToDo List" web application.  In the course of this exercise, you will learn how to access and navigate in Github, how code is stored and organized on GitHub, as well as learn how edits to source code can trigger builds and deployments in a DevOps environment such as OpenShift.
 
+Each student will have the use of their own repo for this exercise, but please ensure that you access your *assigned repo only* to avoid causing confusion for another student.
+ 
+##Access your your deployed ToDo List web application
+ 
+The starting point of the exercise is that a version of the ToDo application has been deployed for each student with a unique url, which will have been provided to you.
 
-## Learning AngularJS
-The [AngularJS website](http://angularjs.org) is a great resource for getting started.
+To view your version of the ToDo application:
 
-Here are some links you may find helpful:
+* Open your web browser to the URL provided.
+* Enter some items in the ToDo list.
 
-* [Tutorial](http://docs.angularjs.org/tutorial)
-* [API Reference](http://docs.angularjs.org/api)
-* [Developer Guide](http://docs.angularjs.org/guide)
-* [Applications built with AngularJS](https://www.madewithangular.com/)
-* [Blog](http://blog.angularjs.org)
-* [FAQ](http://docs.angularjs.org/misc/faq)
-* [AngularJS Meetups](http://www.youtube.com/angularjs)
+##Access your repository on GitHub
 
-Articles and guides from the community:
+Each student will have been provided a GitHub username+password, along with the name of a repository that they will use for this exercise.
 
-* [Code School AngularJS course](https://www.codeschool.com/courses/shaping-up-with-angular-js)
-* [5 Awesome AngularJS Features](http://net.tutsplus.com/tutorials/javascript-ajax/5-awesome-angularjs-features)
-* [Using Yeoman with AngularJS](http://briantford.com/blog/angular-yeoman.html)
-* [me&ngular - an introduction to MVW](http://stephenplusplus.github.io/meangular)
+Each instance of the deployed ToDo application has a distinct repository in GitHub to allow students to work independently.
 
-Get help from other AngularJS users:
+The steps to find your way to your assigned GitHub repository are as follows:
 
-* [Walkthroughs and Tutorials on YouTube](http://www.youtube.com/playlist?list=PL1w1q3fL4pmgqpzb-XhG7Clgi67d_OHXz)
-* [Google Groups mailing list](https://groups.google.com/forum/?fromgroups#!forum/angular)
-* [angularjs on Stack Overflow](http://stackoverflow.com/questions/tagged/angularjs)
-* [AngularJS on Twitter](https://twitter.com/angularjs)
-* [AngularjS on Google +](https://plus.google.com/+AngularJS/posts)
+* Login to github [here](https://github.com/login)
+* Enter the username and password provided
+* Switch to the "C3IDigitalLiteracyLab" organization in GitHub [here](https://github.com/C3IDigitalLiteracyLab)
+* You should see a list of repositories.  Select the repository in this list that was assigned to you.
+* You should see a list of files. These are the contents of the repository.
+* Congratulations! You are now a GitHub novice! 
 
-_If you have other helpful links to share, or find any of the links above no longer work, please [let us know](https://github.com/tastejs/todomvc/issues)._
+##Edit a source code file
 
-## Testsuite
+Each of the files listed in the repo are a part of the ToDo application, or some form of supporting material.  You will be making an change to the contents of one of these files.
+ 
+To perform your edits:
 
-The app uses [Karma](http://karma-runner.github.io/0.12/index.html) to run the tests located in the `test/` folder. To run the tests:
+* Locate the file "index.html" in the repository's file list and click it. The screen will update and display the contents of the file.
 
-```
-$ npm install
-$ npm test
-```
