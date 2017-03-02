@@ -28,7 +28,14 @@ For this exercise to work best, open your browser, and open separate tabs (ctrl-
 
 ##Access your deployed ToDo List web application
  
-The starting point of the exercise is that a version of the ToDo application has been deployed for each student with a unique number and url, which will have been provided to you along with your workbook, and listed below:
+The starting point of the exercise is that a version of the ToDo application has been deployed for each student. Your student number for the exercises is on the cover of your workbook.
+
+To view your version of the ToDo application:
+
+* Ctrl-Click your link (with your student number) from the list below to open the link in a new tab.
+  * The URL is also on the cover of your workbook.
+* Enter some items in the ToDo list.
+* Congratulations, your life is now 17% more organized!
 
 * Student 1 - http://lab-student1-lab.apps.cloudcompass.ca
 * Student 2 - http://lab-student2-lab.apps.cloudcompass.ca
@@ -51,17 +58,11 @@ The starting point of the exercise is that a version of the ToDo application has
 * Student 19 - http://lab-student19-lab.apps.cloudcompass.ca
 * Student 20 - http://lab-student20-lab.apps.cloudcompass.ca
 
-To view your version of the ToDo application:
-
-* Ctrl-Click your link (with your student number) from the list above to open the link in a new tab.
-* Enter some items in the ToDo list.
-* Congratulations, your life is now 17% more organized!
+##Access your repository on GitHub
 
 Time to add the awesome.
 
-##Access your repository on GitHub
-
-Each student's label will have a GitHub username+password, along with the name of a repository that they will use for this part of the exercise.
+You will be provided a GitHub username+password, and (on the workbook cover label) the name of a repository that they will use for this part of the exercise.  It's numbered to match your student number.
 
 Each instance of the deployed ToDo application has a distinct repository in GitHub to allow students to work independently.
 
