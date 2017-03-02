@@ -4,7 +4,7 @@
 
 It's the morning after a release. All went well until the DM called to say the Minister had an idea to make the site AWESOME. As the message passed down the line, the urgency went through the roof. Fix it NOW! you are told.
 
-Fortunately, the team had worked together to put a good deployment pipeline in place.  You can do this easily.
+Fortunately, the team had worked together to put a good deployment pipeline in place.  You can do this!
 
 In this exercise, you will be going through a set of steps similar to those that a developer would follow in implementing a new feature, or a bug fix, including deploying an updated build into a live environment.  The purpose of this exercise is for you to gain an understanding of the workflow, as well as the supporting tools that work together to provide the automation.
   
