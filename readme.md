@@ -1,4 +1,4 @@
-#Cloud Compass Inc. Digital Literacy Course - DevOps for Business Managers - Lab 1
+#Cloud Compass Inc. Digital Literacy Course - DevOps for Product Owners - Lab 1
 
 ##Introduction
 
@@ -18,9 +18,10 @@ Before proceeding, make sure you have the label provided with your workbook, as 
 
 For this exercise to work best, open your browser, and open separate tabs for each of:
  
- * <a href="https://github.com" target="github">GitHub</a>
- * <a href="https://https://master.labs.cloudcompass.ca:8443" target="openshift">OpenShift Console</a>
- 
+ * <a href="https://github.com/C3IDigitalLiteracyLab/" target="github">GitHub</a>
+ * <a href="https://master.labs.cloudcompass.ca:8443" target="openshift">OpenShift Console</a>
+   * Once on this screen, login wth the OpenShift ID and password you were given.
+
 ##Access your deployed ToDo List web application
  
 The starting point of the exercise is that a version of the ToDo application has been deployed for each student with a unique url, which will have been provided to you along with your workbook.
@@ -39,10 +40,12 @@ Each instance of the deployed ToDo application has a distinct repository in GitH
 
 The steps to find your way to your assigned GitHub repository are as follows:
 
-* In your GitHub browser tab, login to GitHub. (If you're a keener and have already logged into GitHub with your own personal account, log out prior to doing this step) 
+* In your GitHub browser tab, click the "Sign In" link, top right.
+   * If you're a keener and have already logged into GitHub with your own personal account, log out prior to doing this step
 * Enter the username and password provided on your label
-* Switch to the "C3IDigitalLiteracyLab" organization in GitHub by using the drop-down list in the middle of the page towards the left.  Select "C3IDigitalLiteracyLab".  Then click the button labeled "View C3IDigitalLiteracyLab" at the top right of the page.  
-* You should see a list of repositories.  Select the repository in this list that corresponds to the one on your label.
+* You should be back to the screen you were on, but now logged into github.
+* On the screen is a list of repositories labelled student1_lab through student20_lab.
+   * Select the repository in this list that corresponds to the one on your label.
 * You should see a list of files. These are the contents of the repository.
 * Congratulations! You have now completed GitHub Competency Level 1! 
 
@@ -53,7 +56,7 @@ Each of the files listed in the repository you navigate to above are a part of t
 To perform your edits:
 
 * Locate the file "index.html" in the repository's file list and click it. The screen will update and display the contents (code) of the file.
-* Switch to to the tab showing your ToDo app. Notice the title of the app is "todos" and the prompt is "What needs to be done?".  We want to change these to something awesome.
+* Switch to to the tab showing your ToDo app. Notice the title of the app is "todos" and the prompt is "What needs to be done?". So sad.  We want to change these to something awesome.
 * Switch back to your GitHub tab.
 * Find the Edit (pencil) button at the top-right of the area showing the source code and click it. You're now in Edit mode.
 * Go to line 16 in the source code and change the text `<h1>todos</h1>` to `<h1>awesome list</h1>`
