@@ -2,12 +2,16 @@
 
 ##Introduction
 
+It's the morning after a release. All went well until the DM called to say the Minister had an idea to make the site AWESOME. As the message passed down the line, the urgency went through the roof. Fix it NOW! you are told.
+
+Fortunately, the team had worked together to put a good deployment pipeline in place.  You can do this easily.
+
 In this exercise, you will be going through a set of steps similar to those that a developer would follow in implementing a new feature, or a bug fix, including deploying an updated build into a live environment.  The purpose of this exercise is for you to gain an understanding of the workflow, as well as the supporting tools that work together to provide the automation.
   
-This exercise makes use of a basic "ToDo List" web application.  In the course of this exercise, you will learn:
+This exercise makes use of a basic "ToDo List" web application.  In the course of this exercise, you will experience:
  
-* how to access and navigate in Github
-* how code is stored and organized on GitHub
+* how to access and navigate in Github - a version control system used for most Open Source solutions
+* how code is stored and organized on GitHub in repositories - "repos"
 * how edits to source code can trigger builds and deployments in a DevOps environment such as OpenShift.
 
 Each student will have the use of their own repository for this exercise, but please ensure that you access your *assigned repo only* to avoid causing confusion for another student.
@@ -16,7 +20,7 @@ Before proceeding, make sure you have the label provided with your workbook, as 
 
 ##Setup
 
-For this exercise to work best, open your browser, and open separate tabs for each of:
+For this exercise to work best, open your browser, and open separate tabs (ctrl-click the links) for each of:
  
  * <a href="https://github.com/C3IDigitalLiteracyLab/" target="github">GitHub</a>
  * <a href="https://master.labs.cloudcompass.ca:8443" target="openshift">OpenShift Console</a>
@@ -24,7 +28,7 @@ For this exercise to work best, open your browser, and open separate tabs for ea
 
 ##Access your deployed ToDo List web application
  
-The starting point of the exercise is that a version of the ToDo application has been deployed for each student with a unique number and url, which will have been provided to you along with your workbook.
+The starting point of the exercise is that a version of the ToDo application has been deployed for each student with a unique number and url, which will have been provided to you along with your workbook, and listed below:
 
 * Student 1 - http://lab-student1-lab.apps.cloudcompass.ca
 * Student 2 - http://lab-student2-lab.apps.cloudcompass.ca
@@ -49,9 +53,11 @@ The starting point of the exercise is that a version of the ToDo application has
 
 To view your version of the ToDo application:
 
-* In a new tab, open your web browser to the URL provided.
+* Ctrl-Click your link (with your student number) from the list above to open the link in a new tab.
 * Enter some items in the ToDo list.
 * Congratulations, your life is now 17% more organized!
+
+Time to add the awesome.
 
 ##Access your repository on GitHub
 
@@ -61,9 +67,9 @@ Each instance of the deployed ToDo application has a distinct repository in GitH
 
 The steps to find your way to your assigned GitHub repository are as follows:
 
-* In your GitHub browser tab, click the "Sign In" link, top right.
+* In your GitHub browser tab (opened earlier - see above), click the "Sign In" link, top right.
    * If you're a keener and have already logged into GitHub with your own personal account, log out prior to doing this step
-* Enter the username and password provided on your label
+* Enter the username and password provided to you.
 * You should be back to the screen you were on, but now logged into github.
 * On the screen is a list of repositories labelled student1_lab through student20_lab.
    * Select the repository in this list that corresponds to the one on your label.
@@ -93,6 +99,7 @@ In this exercise, we're going to explore OpenShift a little bit to see some of t
 
 * Switch to your browser OpensShift tab.
 * Log in to OpenShift using the username+password on your label.
+  * Passwords may have the number "1", but don't have the letters "l" or "I"
 * You should see a project list (containing a single project).  It will be named something like "Digital Literacy Course Lab..."
 * Click the project name.  You should now see an overview of all of the components that make up your project's home in OpenShift.
 * Depending on how quickly your code edits from the prior part exercise took to process, you may see a build happening (progress indicator near the top of the page), or a brand-new deployment (text like "Deployment Config lab - a few seconds ago"), meaning the build has already completed.
