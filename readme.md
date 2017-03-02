@@ -24,7 +24,29 @@ For this exercise to work best, open your browser, and open separate tabs for ea
 
 ##Access your deployed ToDo List web application
  
-The starting point of the exercise is that a version of the ToDo application has been deployed for each student with a unique url, which will have been provided to you along with your workbook.
+The starting point of the exercise is that a version of the ToDo application has been deployed for each student with a unique url, which will have been provided to you along with your workbook.  And, it's in this table below:
+
+|OpenShift Username|ToDo Web app URL|
+|student1|http://lab-student1-lab.apps.cloudcompass.ca|
+|student2|http://lab-student2-lab.apps.cloudcompass.ca|
+|student3|http://lab-student3-lab.apps.cloudcompass.ca|
+|student4|http://lab-student4-lab.apps.cloudcompass.ca|
+|student5|http://lab-student5-lab.apps.cloudcompass.ca|
+|student6|http://lab-student6-lab.apps.cloudcompass.ca|
+|student7|http://lab-student7-lab.apps.cloudcompass.ca|
+|student8|http://lab-student8-lab.apps.cloudcompass.ca|
+|student9|http://lab-student9-lab.apps.cloudcompass.ca|
+|student10|http://lab-student10-lab.apps.cloudcompass.ca|
+|student11|http://lab-student11-lab.apps.cloudcompass.ca|
+|student12|http://lab-student12-lab.apps.cloudcompass.ca|
+|student13|http://lab-student13-lab.apps.cloudcompass.ca|
+|student14|http://lab-student14-lab.apps.cloudcompass.ca|
+|student15|http://lab-student15-lab.apps.cloudcompass.ca|
+|student16|http://lab-student16-lab.apps.cloudcompass.ca|
+|student17|http://lab-student17-lab.apps.cloudcompass.ca|
+|student18|http://lab-student18-lab.apps.cloudcompass.ca|
+|student19|http://lab-student19-lab.apps.cloudcompass.ca|
+|student20|http://lab-student20-lab.apps.cloudcompass.ca|
 
 To view your version of the ToDo application:
 
@@ -78,6 +100,3 @@ In this exercise, we're going to explore OpenShift a little bit to see some of t
 * If the new deployment is complete, switch to your ToDo app browser tab and refresh the page.  Your (awesome) edits should appear.
 * If the build is still running, wait for it to complete, and watch the blue glowing ring (ooh! glowing things!) as it deploys afterwards, then check for your changes in your ToDo app browser tab.
 * Congratulations you're now a DevOps Apprentice Level 1!
-
-
-
