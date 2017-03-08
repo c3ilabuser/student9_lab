@@ -145,7 +145,7 @@ In this exercise, we're going to explore the pipeline that has been set up, and 
 
 * When prompted, log in using the OpenShift username+password on your label.  
 * You should see a "pipeline" that appears to either be in progress (building / deploying / testing your app), or failed :(
-* If it's running, wait a minute or two until the test stage completes.  At this point it will fail, and the pipeline will stop due to a failed test.  Somehow the app didn't get it's title updated properly.  We'll fix that in the next step. 
+* Click the pipeline, and, if it's still running, wait a minute or two until the test stage completes.  The test stage fails and the pipeline has stops due to a failed test.  Somehow the app didn't get its title updated properly.  We'll fix that in the next step. 
 
 ##Correct the application title
 
@@ -160,5 +160,5 @@ To perform your fix:
 
 ##Verify test success and approve production deployment
 
-* Flip back to your pipeline browser tab.  You should see a new pipeline execution.  This time, the test stage should succeed because you've corrected the title.
+* Flip back to your pipeline browser tab.  You should see a new pipeline execution.  Click into it.  This time, the test stage should succeed because you've corrected the title.
 * Once the pipeline steps for testing your app have completed, you'll be prompted to approve the deployment (promotion) of the app to production.  Click the approve button and watch the pipeline complete. 
