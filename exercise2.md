@@ -2,9 +2,9 @@
 
 ##Introduction
 
-Since the first release of your Awesome ToDo App, you've enhanced your DevOps tooling by introducing Jenkins, adding some automated testing, as well as a prod approval step.  You want to make sure it's all working before handing the keys over to your Product Owner.  
+Since the first release of your Awesome ToDo App, you're DevOps team has improved your pipeline by adding some test(s) after deployment and manual approval step before deploying to Prodution.  This involved adding the Jenkins to the pipeline to run the steps, and using Jenkins to add some automated testing, and the prod approval step.  Incidentally - the test your testers added was to make sure the the app really is "Awesome".
 
-In this exercise, you will be going through a set of steps to confirm you new DevOps goodness works, and making any tweaks along the way to get it humming along.
+In this exercise, you will be going through a set of steps to change your app, make sure it passes post-dev deployment tests and promote it to Production.
   
 As with the last exercise, this one makes use of a basic "ToDo List" web application.  In the course of this exercise, you will experience (some of this is review from the past exercise):
  
@@ -16,15 +16,7 @@ As with the last exercise, this one makes use of a basic "ToDo List" web applica
 
 Each student will have the use of their own repository and pipeline for this exercise, but please ensure that you access your *assigned repo and pipeline only* to avoid causing confusion for another student.
 
-Before proceeding, make sure you have the label provided with your workbook, as it has links and login details that you'll need in the steps below.
-
-##Setup
-
-For this exercise to work best, open your browser, and open separate tabs (ctrl-click the links) for each of:
- 
- * <a href="https://github.com/C3IDigitalLiteracyLab/" target="github">GitHub</a>
- * <a href="https://master.labs.cloudcompass.ca:8443" target="openshift">OpenShift Console</a>
-   * Once on this screen, login wth the OpenShift ID and password you were given.
+Before proceeding, make sure you have the label provided with your workbook, as it has the password details that you'll need in the steps below.
 
 ##Access your deployed ToDo List web application
  
@@ -33,7 +25,6 @@ The starting point of the exercise is that a version of the ToDo application has
 To view your version of the ToDo application:
 
 * Ctrl-Click your link (with your student number) from the list below to open the link in a new tab.
-  * The URL is also on the cover of your workbook.
 * Enter some items in the ToDo list.
 * Congratulations, your life is now 17% more organized!
 
@@ -68,12 +59,12 @@ Each instance of the deployed ToDo application has a distinct repository in GitH
 
 The steps to find your way to your assigned GitHub repository are as follows:
 
-* In your GitHub browser tab (opened earlier - see above), click the "Sign In" link, top right.
-   * If you're a keener and have already logged into GitHub with your own personal account, log out prior to doing this step
-* Enter the username and password provided to you.
+* Ctrl-Click this link to open a new tab in github: https://github.com/C3IDigitalLiteracyLab
+* If you're a keener and have already logged into GitHub with your own personal account, sign out and go back to the page
+* Click Sign In - top right - and enter the username and password provided to you.
 * You should be back to the screen you were on, but now logged into github.
 
-* Ctrl-Click the link below corresponding to your student number:
+* Click the link below corresponding to your student number:
  
  * Student 1 - https://github.com/C3IDigitalLiteracyLab/student1_lab
  * Student 2 - https://github.com/C3IDigitalLiteracyLab/student2_lab
@@ -143,11 +134,15 @@ In this exercise, we're going to explore the pipeline that has been set up, and 
  * Student 19 - https://jenkins-lab-tools.apps.cloudcompass.ca/blue/organizations/jenkins/lab-tools-student19-lab-lab-pipeline/activity
  * Student 20 - https://jenkins-lab-tools.apps.cloudcompass.ca/blue/organizations/jenkins/lab-tools-student20-lab-lab-pipeline/activity
 
-* When prompted, log in using the OpenShift username+password on your label.  
-* You should see a "pipeline" that appears to either be in progress (building / deploying / testing your app), or failed :(
-* Click the pipeline, and, if it's still running, wait a minute or two until the test stage completes.  The test stage fails and the pipeline has stops due to a failed test.  Somehow the app didn't get its title updated properly.  We'll fix that in the next step. 
+* When prompted, log in using the OpenShift username (student + your number) and the password on your label.
+  * Any thing that looks like the number one *IS* the number one.
+* You should see a "pipeline" (#1) that appears to either be in progress (building / deploying / testing your app), or failed :(
+* Click on the line of that pipeline, and, if it's still running, watch a minute or two until the test stage completes.  The test stage *should* fail and the pipeline has stops due to a failed test.  What went wrong?
+* While there - click on the steps of the pipeline and expand the line(s) below to see a log of what happened on each step.
 
 ##Correct the application title
+
+The test team knew that the title of the app had to be awesome, and you didn't have that in your app. Test Driven Development at work.  Write the test, it fails, write the code, it (hopefully) works.
 
 To perform your fix:
 
@@ -160,5 +155,7 @@ To perform your fix:
 
 ##Verify test success and approve production deployment
 
-* Flip back to your pipeline browser tab.  You should see a new pipeline execution.  Click into it.  This time, the test stage should succeed because you've corrected the title.
-* Once the pipeline steps for testing your app have completed, you'll be prompted to approve the deployment (promotion) of the app to production.  Click the approve button and watch the pipeline complete. 
+* Flip back to your pipeline browser tab.  You should see a new line in the pipeline execution list.  Click into it.  This time, the test stage should succeed because you've corrected the title.
+* This time, your test step should pass.
+* Ready for Prod? You'll be prompted to approve the deployment (promotion) of the app to production.
+* Click the approve button and watch the pipeline completes. 
