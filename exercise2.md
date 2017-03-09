@@ -136,7 +136,7 @@ In this exercise, we're going to explore the pipeline that has been set up, and 
  * Student 20 - https://jenkins-lab-tools.apps.cloudcompass.ca/blue/organizations/jenkins/lab-tools-student20-lab-lab-pipeline/activity
 
 * When prompted, log in using the OpenShift username (student + your number) and the password on your label.
-  * Any thing that looks like the number one *IS* the number one.
+  * In the password anything that looks like the number one *IS* the number one.
 * You should see a "pipeline" (#1) that appears to either be in progress (building / deploying / testing your app), or failed :(
 * Click on the line of that pipeline, and, if it's still running, watch a minute or two until the test stage completes.  The test stage *should* fail and the pipeline has stops due to a failed test.  What went wrong?
 * While there - click on the steps of the pipeline and expand the line(s) below to see a log of what happened on each step.
