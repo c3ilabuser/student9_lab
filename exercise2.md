@@ -160,3 +160,31 @@ To perform your fix:
 * This time, your test step should pass.
 * Ready for Prod? You'll be prompted to approve the deployment (promotion) of the app to production.
 * Click the approve button and watch the pipeline completes. 
+
+##Want to see what OpenShift is doing?
+
+* If you want to see what's happening with OpenShift on this, ctrl-click the link for your lab:
+
+* https://master.labs.cloudcompass.ca:8443/console/project/student1-lab/overview
+* https://master.labs.cloudcompass.ca:8443/console/project/student2-lab/overview
+* https://master.labs.cloudcompass.ca:8443/console/project/student3-lab/overview
+* https://master.labs.cloudcompass.ca:8443/console/project/student4-lab/overview
+* https://master.labs.cloudcompass.ca:8443/console/project/student5-lab/overview
+* https://master.labs.cloudcompass.ca:8443/console/project/student6-lab/overview
+* https://master.labs.cloudcompass.ca:8443/console/project/student7-lab/overview
+* https://master.labs.cloudcompass.ca:8443/console/project/student8-lab/overview
+* https://master.labs.cloudcompass.ca:8443/console/project/student9-lab/overview
+* https://master.labs.cloudcompass.ca:8443/console/project/student11-lab/overview
+* https://master.labs.cloudcompass.ca:8443/console/project/student12-lab/overview
+* https://master.labs.cloudcompass.ca:8443/console/project/student13-lab/overview
+* https://master.labs.cloudcompass.ca:8443/console/project/student14-lab/overview
+* https://master.labs.cloudcompass.ca:8443/console/project/student15-lab/overview
+* https://master.labs.cloudcompass.ca:8443/console/project/student16-lab/overview
+* https://master.labs.cloudcompass.ca:8443/console/project/student17-lab/overview
+* https://master.labs.cloudcompass.ca:8443/console/project/student18-lab/overview
+* https://master.labs.cloudcompass.ca:8443/console/project/student19-lab/overview
+* https://master.labs.cloudcompass.ca:8443/console/project/student20-lab/overview
+
+You will see that there are now two pods running - "Lab" (Dev) and "Lab-Prod" (Prod).  Hey, we just bought some more servers!
+
+Feel free to poke around a bit.
