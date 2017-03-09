@@ -26,7 +26,8 @@ To view your version of the ToDo application:
 
 * Ctrl-Click your link (with your student number) from the list below to open the link in a new tab.
 * Enter some items in the ToDo list.
-* Congratulations, your life is now 17% more organized!
+
+Congratulations, your life is now 17% more organized!
 
 * Student 1 - http://lab-student1-lab.apps.cloudcompass.ca
 * Student 2 - http://lab-student2-lab.apps.cloudcompass.ca
